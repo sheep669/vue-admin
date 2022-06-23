@@ -1,5 +1,5 @@
 <template>
-    <div id="emo-brokerage">佣金管理</div>
+    <div id="emo-brokerage">佣金管理 好多钱</div>
 </template>
 <script>
 export default {
