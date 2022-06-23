@@ -1,5 +1,5 @@
 <template>
-    <div id="emo-tuanzhang">团长管理</div>
+    <div id="emo-tuanzhang">团长管理 团长爱吃鱼</div>
 </template>
 
 <script>
