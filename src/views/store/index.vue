@@ -1,5 +1,5 @@
 <template>
-    <div id="emo-store">Emo-Store page</div>
+    <div id="emo-store">商铺管理</div>
 </template>
 <script>
 export default {

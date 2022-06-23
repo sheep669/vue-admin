@@ -1,5 +1,5 @@
 <template>
-    <div id="emo-setting">emo-setting page</div>
+    <div id="emo-setting">设置</div>
 </template>
 <script>
 export default {
