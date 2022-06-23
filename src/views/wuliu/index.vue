@@ -1,5 +1,5 @@
 <template>
-    <div id="emo-wuliu">Emo-Wuliu page</div>
+    <div id="emo-wuliu">货流管理</div>
 </template>
 <script>
 export default {
