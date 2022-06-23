@@ -1,5 +1,5 @@
 <template>
-    <div id="emo-statistic">hello statistic</div>
+    <div id="emo-statistic">统计</div>
 </template>
 
 <script>
