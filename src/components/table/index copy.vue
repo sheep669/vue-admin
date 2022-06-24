@@ -5,22 +5,13 @@
             </el-table-column>
             <el-table-column prop="name" label="姓名" width="180">
             </el-table-column>
-            <el-table-column prop="address" label="住址" show-overflow-tooltip>
+            <el-table-column prop="address" label="地址" show-overflow-tooltip>
             </el-table-column>
-            <el-table-column prop="age" label="年龄" width="180">
-            </el-table-column>
-            <el-table-column prop="sex" label="性别" width="180">
+            <el-table-column prop="name" label="姓名" width="180">
             </el-table-column>
             <el-table-column
                 prop="address"
-                label="详细地址"
-                width="120"
-                show-overflow-tooltip
-            >
-            </el-table-column>
-            <el-table-column
-                prop="address"
-                label="个人简介"
+                label="地址"
                 width="120"
                 show-overflow-tooltip
             >
@@ -32,13 +23,47 @@
                 show-overflow-tooltip
             >
             </el-table-column>
-            <el-table-column prop="status" label="状态" width="120">
-                <el-switch
-                    v-model="value"
-                    active-color="#13ce66"
-                    inactive-color="#ff4949"
-                >
-                </el-switch>
+            <el-table-column
+                prop="address"
+                label="地址"
+                width="120"
+                show-overflow-tooltip
+            >
+            </el-table-column>
+            <el-table-column
+                prop="address"
+                label="地址"
+                width="120"
+                show-overflow-tooltip
+            >
+            </el-table-column>
+            <el-table-column
+                prop="address"
+                label="地址"
+                width="120"
+                show-overflow-tooltip
+            >
+            </el-table-column>
+            <el-table-column
+                prop="address"
+                label="地址"
+                width="120"
+                show-overflow-tooltip
+            >
+            </el-table-column>
+            <el-table-column
+                prop="address"
+                label="地址"
+                width="120"
+                show-overflow-tooltip
+            >
+            </el-table-column>
+            <el-table-column
+                prop="address"
+                label="地址"
+                width="120"
+                show-overflow-tooltip
+            >
             </el-table-column>
             <el-table-column
                 prop="address"

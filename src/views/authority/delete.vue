@@ -1,9 +1,9 @@
 <template>
-    <div id="emo-wuliu">货流管理 yyds </div>
+    <div id="delete-authority">delete-authority page</div>
 </template>
 <script>
 export default {
-    name: "EmoWuliu",
+    name: "DeleteAuthority",
 };
 </script>
 <style lang='css' scoped>

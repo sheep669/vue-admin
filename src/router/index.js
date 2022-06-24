@@ -87,11 +87,53 @@ const routes = [
   },
   {
     path: '/setting',
-    name: '/setting',
-    component: () => import('@/views//setting/index'),
+    name: 'setting',
+    component: () => import('@/views/setting/index'),
     meta: {
       title: '设置'
     }
+  },
+  {
+    path: '/authority',
+    name: 'authority',
+    component: () => import('@/views/authority/index'),
+    meta: {
+      title: '权限管理'
+    },
+    children: [
+      {
+        path: '/authority/exit',
+        name: 'exit',
+        component: () => import('@/views/authority/exit.vue'),
+        meta: {
+          title: '退出权限'
+        },
+      },
+      {
+        path: '/authority/login',
+        name: 'login',
+        component: () => import('@/views/authority/login.vue'),
+        meta: {
+          title: '登录权限'
+        },
+      },
+      {
+        path: '/authority/edit',
+        name: 'edit',
+        component: () => import('@/views/authority/edit.vue'),
+        meta: {
+          title: '编辑权限'
+        },
+      },
+      {
+        path: '/authority/delete',
+        name: 'delete',
+        component: () => import('@/views/authority/delete.vue'),
+        meta: {
+          title: '删除权限'
+        },
+      },
+    ]
   },
 
 ]

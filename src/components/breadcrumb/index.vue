@@ -24,6 +24,6 @@ export default {
 <style lang="css" scoped>
 .emo-breadcrumb {
     align-self: flex-start;
-    margin: 10px 0 8px 5px;
+    margin: 10px 0 8px 9px;
 }
 </style>

@@ -48,20 +48,28 @@
                 <i class="el-icon-setting"></i>
                 <span slot="title"> 设置 </span>
             </el-menu-item>
-            <el-submenu index="">
+            <el-submenu index="/authority">
                 <template slot="title">
                     <i class="el-icon-set-up"></i>
                     <span>权限管理</span>
                 </template>
                 <el-menu-item-group>
                     <template slot="title">用户权限</template>
-                    <el-menu-item index="1-1">退出权限</el-menu-item>
-                    <el-menu-item index="1-2">登陆权限</el-menu-item>
+                    <el-menu-item index="/authority/exit"
+                        >退出权限</el-menu-item
+                    >
+                    <el-menu-item index="/authority/login"
+                        >登陆权限</el-menu-item
+                    >
                 </el-menu-item-group>
                 <el-menu-item-group>
                     <template slot="title">操作权限</template>
-                    <el-menu-item index="2-1">编辑权限</el-menu-item>
-                    <el-menu-item index="2-2">删除权限</el-menu-item>
+                    <el-menu-item index="/authority/edit"
+                        >编辑权限</el-menu-item
+                    >
+                    <el-menu-item index="/authority/delete"
+                        >删除权限</el-menu-item
+                    >
                 </el-menu-item-group>
             </el-submenu>
         </el-menu>
