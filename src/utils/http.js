@@ -1,8 +1,8 @@
 import axios from "./request"
 
-export function getTableData() {
+export function getTableData(url_param) {
     return axios({
         method: "get",
-        url: `/get_table_data`
+        url: url_param
     })
 }
