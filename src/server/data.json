@@ -81,62 +81,88 @@
         {
             "title": "首页",
             "path": "/",
-            "name": "home"
+            "name": "home",
+            "icon": "el-icon-s-home"
         },
         {
             "title": "团长管理",
             "path": "/tuanzhang",
-            "name": "tuanzhang"
+            "name": "tuanzhang",
+            "icon": "el-icon-s-custom"
         },
         {
             "title": "用户管理",
             "path": "/user",
-            "name": "user"
+            "name": "user",
+            "icon": "el-icon-user"
         },
         {
             "title": "订单管理",
             "path": "/order",
-            "name": "order"
+            "name": "order",
+            "icon": "el-icon-shopping-cart-1"
         },
         {
             "title": "骑手管理",
             "path": "/delivery",
-            "name": "delivery"
+            "name": "delivery",
+            "icon": "el-icon-bicycle"
         },
         {
             "title": "货流管理",
             "path": "/wuliu",
-            "name": "wuliu"
+            "name": "wuliu",
+            "icon": "el-icon-truck"
         },
         {
             "title": "商铺管理",
             "path": "/store",
-            "name": "store"
+            "name": "store",
+            "icon": "el-icon-box"
         },
         {
             "title": "佣金管理",
             "path": "/brokerage",
-            "name": "brokerage"
+            "name": "brokerage",
+            "icon": "el-icon-wallet"
         },
         {
             "title": "统计",
             "path": "/statistic",
-            "name": "statistic"
+            "name": "statistic",
+            "icon": "el-icon-pie-chart"
         },
         {
             "title": "设置",
             "path": "/setting",
-            "name": "setting"
+            "name": "setting",
+            "icon": "el-icon-setting"
         },
         {
             "title": "权限管理",
             "path": "/authority",
             "name": "authority",
+            "icon": "el-icon-set-up",
             "children": [
                 {
                     "title": "退出权限",
                     "path": "/authority/exit",
                     "name": "exit"
+                },
+                {
+                    "title": "登录权限",
+                    "path": "/authority/login",
+                    "name": "login"
+                },
+                {
+                    "title": "编辑权限",
+                    "path": "/authority/edit",
+                    "name": "edit"
+                },
+                {
+                    "title": "退出权限",
+                    "path": "/authority/delete",
+                    "name": "delete"
                 }
             ]
         }

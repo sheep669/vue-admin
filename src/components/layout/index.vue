@@ -37,11 +37,17 @@ export default {
     background-color: #252526;
 }
 .el-main {
-    height: 670px;
+    height: 800px;
     padding: 0;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.el-main::-webkit-scrollbar {
+    display: none;
+}
+html ::-webkit-scrollbar {
+    display: none;
 }
 </style>

@@ -27,4 +27,7 @@ export default {
     overflow-y: auto;
     overflow-x: hidden;
 }
+.el-aside::-webkit-scrollbar {
+    display: none;
+}
 </style>
